@@ -3,5 +3,58 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right-links {
+
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 200px;
+
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    gap: 10px;
+    margin: 0 200px 0 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.section-2 {
+
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-4 {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}
