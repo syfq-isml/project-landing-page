@@ -5,6 +5,7 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -12,6 +13,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
+    
 }
 
 .right-links {
@@ -23,13 +26,15 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 200px;
+    font-weight: bold;
+    flex-shrink: 0;
 
 }
 
 ul {
     list-style: none;
     display:flex;
-    gap: 10px;
+    gap: 30px;
     margin: 0 200px 0 0;
     padding: 0;
 }
@@ -37,6 +42,7 @@ ul {
 a{
     text-decoration: none;
     color: #F9FAF8;
+    
 }
 
 .section-1 {
